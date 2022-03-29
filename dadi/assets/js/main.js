@@ -23,3 +23,4 @@ if (randomUser > randomPC){
 } else if (randomUser == randomPC){
     console.log('Pareggio!')
 }
+
