@@ -5,11 +5,11 @@ console.log(myList)
 let email = document.getElementById('email')
 
 // autentificazione
-let auth = false && true
+let auth = false
 
 
 btn.addEventListener('click', function(){
-
+    auth = false
     let email = document.getElementById('email').value
         // inizializzazione del ciclo
     for (let i = 0; i < myList.length; i++){
