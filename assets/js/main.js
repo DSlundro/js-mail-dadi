@@ -2,20 +2,21 @@
 let myList = ['one@gmail.com', 'two@gmail.com', 'three@gmail.com', 'four@gmail.com', 'five@gmail.com'];
 
 // chiedere l'imput dall'utente
-let userMail = prompt('Inserisci la tua email')
-console.log(myList)
+let userMail = prompt('Inserisci la tua email');
+console.log(myList);
 
-
+// inizializzazione del ciclo
 for (let i = 0; i < myList.length; i++){
-    
-        if (myList == userMail){
+        // se l'utente è nella lista
+        if (myList[i] == userMail){
             console.log('registrato');
-        }   else if (myList != userMail) {
+        // se l'utente non è nelal lista
+        }   else if (myList[i] != userMail) {
             console.log('non registrato');
+        // se manca l'email
         }   else{
-            alert('Devi inserire la tua email')
+            alert('Devi inserire la tua email');
         }
-    
     }
 
 
