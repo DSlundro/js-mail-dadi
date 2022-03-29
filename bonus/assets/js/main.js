@@ -1,6 +1,6 @@
 // impostare una Array (lista delle email consentite per il login)
 let myList = ['one@gmail.com', 'two@gmail.com', 'three@gmail.com', 'four@gmail.com', 'five@gmail.com'];
-
+console.log(myList)
 // chiedere l'imput dall'utente
 let email = document.getElementById('email')
 
@@ -26,7 +26,7 @@ btn.addEventListener('click', function(){
     else if(auth == false){
         console.log('Accesso negato')
         document.getElementById('result').innerHTML = 'Accesso negato'
-    }
+    } 
 })
 
 
